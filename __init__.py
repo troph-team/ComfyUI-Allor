@@ -4,7 +4,8 @@ loader = Loader()
 
 loader.setup_config()
 loader.setup_timestamp()
-loader.check_updates()
+# unused with a no git container
+# loader.check_updates()
 loader.setup_rembg()
 loader.setup_paths()
 loader.setup_override()
